@@ -9,11 +9,14 @@
 <body>
     <!--Início Header -->
     <header>
-        <div class="flex-container menu">
-            <div>
+        <div id="navegacao" class="flex-container menu">
+            <div id="titulo">
                 <h1>FlexTurismos</h1>
             </div>
-            <ul class="list-items">
+            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+                <span id="hamburguer"></span>
+            </button>
+            <ul id="menu" role="menu" class="list-items">
                 <li><a href="#">Quem Somos</a></li>
                 <li><a href="#">Serviços</a></li>
                 <li><a href="#">Planos</a></li>
@@ -30,7 +33,7 @@
             <a href="#" class="btn">Saiba Mais!</a>
         </div>
         
-        <div>
+        <div class="primeira_imagem">
             <div><img src="./images/0-main.png" alt="banner de apresentação"></div>
         </div>
     </div>
@@ -131,4 +134,5 @@
     </footer>
     <!--Fim Footer -->
 </body>
+    <script src="script.js"></script>
 </html>
